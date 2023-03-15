@@ -1,13 +1,7 @@
 {
-    "color_and_hello": {
+    "elan-feature-test": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
-            }
         }
     }
 }

@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-su vscode
+su - vscode
 cd /home/vscode
 echo $HOME
 pwd

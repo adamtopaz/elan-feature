@@ -1,7 +1,7 @@
 {
     "name": "Install elan",
     "id": "elan",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A simple feature used to install elan in devcontainers",
     "options": {
         "toolchain": {

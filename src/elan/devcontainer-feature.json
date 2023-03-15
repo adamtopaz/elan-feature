@@ -1,0 +1,19 @@
+{
+    "name": "Install elan",
+    "id": "elan",
+    "version": "0.0.1",
+    "description": "A simple feature used to install elan in devcontainers",
+    "options": {
+        "toolchain": {
+            "type": "string",
+            "proposals": [
+                "leanprover/lean4:nightly"
+            ],
+            "default": "leanprover/lean4:nightly",
+            "description": "Select a lean toolchain"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
